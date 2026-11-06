@@ -1,10 +1,10 @@
 import React from 'react'
-import SignIn from './signin/page'
+import MoviesPage from '@/app/moviehome/page'
 
 export default function page() {
   return (
     <div>
-      <SignIn/>
+      <MoviesPage/>
     </div>
   )
 }

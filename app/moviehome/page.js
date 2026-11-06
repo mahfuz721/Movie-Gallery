@@ -9,7 +9,7 @@ import { Suspense } from "react";
 
 
 export default async  function MoviesPage({searchParams}) {
-  const {page , q} = await searchParams
+  const { page, q } = (await searchParams) || {}
   const query = (q || "").trim()
 
   const filtered = movies.filter((movie) => 
