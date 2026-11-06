@@ -24,9 +24,7 @@ export default function Footer() {
     <Image src="/gmail_red.png" alt="Gmail" width={20} height={20} /> Gmail
   </Link>
 </div>
-          <div className="flex justify-end text-red-700" >
-          <Link href={'/signin'}>Sign Out </Link> 
-          </div>
+          
           <hr/>
           <div className='mt-6 '>
             <Link href={'/components/privacy'}> Privacy Policy</Link>
